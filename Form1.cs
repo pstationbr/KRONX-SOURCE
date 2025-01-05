@@ -41,7 +41,7 @@ namespace KRONX_BETA
 
         private void button1_Click(object sender, EventArgs e)
         {
-            string connectionString = "SERVER=199.167.144.250;DATABASE=xnsrgio1_kronxbd;UID=xnsrgio1_krinxbd;PASSWORD=Veuliah@#2057;";
+            string connectionString = "SERVER=localhost;DATABASE=cadastro;UID=root;PASSWORD=your_password;";
             using (MySqlConnection conn = new MySqlConnection(connectionString))
             {
                 try
